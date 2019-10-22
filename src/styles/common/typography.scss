@@ -1,0 +1,29 @@
+@import '../utils';
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body.window-small {
+  height: 100%;
+}
+
+a,
+button {
+  transition: all 0.25s ease;
+}
