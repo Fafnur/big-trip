@@ -16,6 +16,12 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2019", "dom"],
     "paths": {
+      "@big-trip/common": ["src/libs/common/src/index.ts"],
+      "@big-trip/common/testing": ["src/libs/common/src/testing/index.ts"],
+      "@big-trip/layouts": ["src/libs/layouts/src/index.ts"],
+      "@big-trip/layouts/testing": ["src/libs/layouts/src/testing/index.ts"],
+      "@big-trip/responsive": ["src/libs/responsive/src/index.ts"],
+      "@big-trip/responsive/testing": ["src/libs/responsive/src/testing/index.ts"],
       "@big-trip/storage": ["src/libs/storage/src/index.ts"],
       "@big-trip/storage/testing": ["src/libs/storage/src/testing/index.ts"],
       "@big-trip/store": ["src/libs/store/src/index.ts"],
