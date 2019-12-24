@@ -13,13 +13,13 @@ import { MobileDirective } from './mobile.directive';
 @Component({
   template: `
     <h1>
-      <span *msMobile>Text</span>
+      <span *btMobile>Text</span>
     </h1>
   `
 })
 export class TestMsComponent {}
 
-describe('MsMobileDirective', () => {
+describe('BtMobileDirective', () => {
   let component: TestMsComponent;
   let fixture: ComponentFixture<TestMsComponent>;
   let facade: ResponsiveFacade;
@@ -41,11 +41,7 @@ describe('MsMobileDirective', () => {
         },
         {
           provide: RESPONSIVE_MODE,
-          useValue: RESPONSIVE_MODE_DEFAULT
-        },
-        {
-          provide: PLATFORM_ID,
-          useValue: 'browser'
+          useValue: 'md'
         }
       ]
     }).compileComponents();
@@ -63,7 +59,7 @@ describe('MsMobileDirective', () => {
     expect(component).toBeTruthy();
   });
 
-  it('init() should initialized language on app', async done => {
+  it('init() should load responsive mode', async done => {
     try {
       const compiled = fixture.debugElement.nativeElement;
       await readFirst(facade.mobile$);
