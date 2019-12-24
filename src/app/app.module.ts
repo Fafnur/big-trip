@@ -6,7 +6,6 @@ import { CoreModule } from './core/core.module';
 
 @NgModule({
   imports: [BrowserModule, CoreModule],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

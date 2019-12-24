@@ -10,13 +10,13 @@
     "comment-format": [true, "check-space"],
     "curly": true,
     "component-class-suffix": true,
-    "component-selector": [true, "element", "app", "kebab-case"],
+    "component-selector": [true, "element", "app", "kebab-case", "bt"],
     "contextual-lifecycle": true,
     "deprecation": {
       "severity": "warning"
     },
     "directive-class-suffix": true,
-    "directive-selector": [true, "attribute", "app", "camelCase"],
+    "directive-selector": [true, "attribute", "app", "camelCase", "bt"],
     "forin": true,
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-name": false,

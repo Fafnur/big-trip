@@ -5,8 +5,8 @@ import { AppComponent } from './containers/app/app.component';
 export const coreContainers: any[] = [AppComponent];
 
 export const routes: Routes = [
-  // {
-  //   path: '',
-  //   component: ''
-  // }
+  {
+    path: '',
+    loadChildren: () => import('../home/home.module').then(m => m.HomeModule)
+  }
 ];
