@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'bt-base-layout',
@@ -6,8 +6,4 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./base-layout.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class BaseLayoutComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class BaseLayoutComponent {}

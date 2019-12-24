@@ -1,5 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import { MockComponents } from 'ng-mocks';
 
+import { FooterComponent } from '../../components/footer/footer.component';
+import { HeaderComponent } from '../../components/header/header.component';
 import { BaseLayoutComponent } from './base-layout.component';
 
 describe('BaseLayoutComponent', () => {
@@ -8,7 +12,8 @@ describe('BaseLayoutComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [BaseLayoutComponent]
+      imports: [RouterTestingModule],
+      declarations: [BaseLayoutComponent, MockComponents(FooterComponent, HeaderComponent)]
     }).compileComponents();
   }));
 

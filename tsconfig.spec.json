@@ -6,6 +6,6 @@
     "types": ["jest", "node"],
     "allowJs": true
   },
-  "files": ["src/polyfills.ts"],
+  "files": ["src/polyfills.ts", "src/test-setup.ts"],
   "include": ["**/*.spec.ts", "**/*.d.ts"]
 }

@@ -40,7 +40,8 @@ describe('ResponsiveEffects', () => {
         {
           provide: ResponsiveService,
           useValue: {
-            getInitialProperties: jest.fn()
+            getInitialProperties: jest.fn(),
+            updateBodyClasses: jest.fn()
           }
         }
       ]
