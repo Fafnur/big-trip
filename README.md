@@ -1,27 +1,17 @@
 # BigTrip
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+Учебный репозиторий для демонрации работы создания микромоно репозитория стандартными средствами Angular, вдохновляясь Nx.
 
-## Development server
+Статью можно увидеть на medium'е - [Создаем моно репозиторий на основе angular/cli без Nx или Lerna](https://medium.com/fafnur/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B5%D0%BC-%D0%BC%D0%BE%D0%BD%D0%BE-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-%D0%BD%D0%B0-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-angular-cli-%D0%B1%D0%B5%D0%B7-nx-%D0%B8%D0%BB%D0%B8-lerna-cfbdcb65594d).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Установка
 
-## Code scaffolding
+Для установки достаточно запустить команду `yarn install`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Запуск проекта
 
-## Build
+Для запуска проекта, выполните команду `ng serve`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Тестирование
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Запуск тестов с jest: `ng test`
